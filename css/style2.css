@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav.stateButtons {
+	margin: 10px 0px;
+	padding: 10px;
+	
+	background-color: #0fff;
+	
+}
+
+nav.stateButtons button {
+	width: 150px;
+	padding: 10px;
+	margin: 10px;
+	
+	border-radius: 20px;
+	border: 3px outset #aaaf;
+	
+}
+
+nav.stateButtons button:hover {
+	border: 3px inset #aaaf;
+	text-decoration: underline;
+}
+
+/*The Contents */
+
+main {
+	width: 80%;
+	margin: auto;
+}
+
+main header {
+	padding: 0px;
+}
+
+main h1, main h2 {
+	margin: 20px 0px 5px 0px;
+}
+
+main header.banner img {
+	width: 100%;
+	
+}
+main section ul {
+	list-style-position: inside;
+}
+
+main section ul li {
+	padding: 10px 0px;
+}
+
+/*The Images */
+main aside img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	object-postion: center;
+	
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+@media (min-width: 900px) {
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	main header {
+		width: 100%;
+	}
+	
+	section, aside {
+		width: 40%;
+	}
+}
+

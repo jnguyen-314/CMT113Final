@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	width: 80%;
+	margin: 20px auto;
+	background-color: #afff;
+	padding: 20px;
+	
+	border: 5px solid #888f;
+	border-radius: 20px;
+}
+
+main h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	margin: 20px 0px 5px 0px;
+	font-weight: 900;
+}
+
+input {
+	padding: 12pt;
+	border-radius: 20px;
+}
+
+input[type="text"]:nth-child(3) {
+	text-transform: uppercase;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}

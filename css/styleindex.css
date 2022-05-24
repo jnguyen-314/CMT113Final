@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	width: 80%;
+	margin: 20px auto;
+}
+
+div.post {
+	padding: 20px;
+	border: 2px solid #aaaf;
+	border-radius: 20px;
+}
+
+div.post {
+	display: flex;
+	margin: 20px 0px;
+}
+
+div.post img {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
